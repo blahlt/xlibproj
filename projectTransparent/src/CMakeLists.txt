@@ -1,8 +1,8 @@
 #include_directories(${X11_INCLUDE_DIR})
-add_executable(project1 main.cc)
-target_link_libraries(project1 ${X11_LIBRARIES})
+add_executable(projectTransparent main.cc)
+target_link_libraries(projectTransparent ${X11_LIBRARIES})
 install(TARGETS
-   project1
+   projectTransparent
    RUNTIME DESTINATION bin
    LIBRARY DESTINATION lib
    ARCHIVE DESTINATION lib
